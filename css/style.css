@@ -860,22 +860,11 @@ a:hover { color: var(--gold-dark); }
 /* ---------- Responsive ---------- */
 
 @media (max-width: 980px) {
-  .hero-grid { grid-template-columns: 1fr; gap: 1.6rem; }
-  .hero-figure { max-width: 480px; }
-  .hero-portrait { display: none; }
-  .hero-figure { max-width: none; margin: 0; }
-  .hero-badge {
-    position: static;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    background: rgba(251, 248, 242, 0.06);
-    color: #ece5d6;
-    border: 1px solid rgba(195, 161, 91, 0.45);
-    border-left-width: 3px;
-    box-shadow: none;
-  }
-  .hero-badge strong { color: var(--gold-soft); display: inline; font-size: 1.1rem; margin-right: 0.4rem; }
+  .hero-grid { grid-template-columns: 1fr; gap: 2.2rem; }
+  .hero-copy { order: 2; }
+  .hero-figure { order: 1; max-width: 300px; margin: 0 auto; }
+  .hero-badge { left: -14px; bottom: 20px; padding: 0.65rem 0.9rem; font-size: 0.78rem; }
+  .hero-badge strong { font-size: 1.1rem; }
   .pillars { grid-template-columns: 1fr; }
   .steps { grid-template-columns: repeat(2, 1fr); gap: 2rem 1.2rem; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
