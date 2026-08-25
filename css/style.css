@@ -165,7 +165,7 @@ a:hover { color: var(--gold-dark); }
   align-items: center;
   gap: 1.5rem;
   padding-block: 1.1rem;
-  padding-inline: clamp(1.5rem, 6vw, 3.6rem);
+  padding-inline: clamp(1.8rem, 6vw, 4rem);
 }
 .header-inner .brand { justify-self: start; }
 .header-inner .main-nav { justify-self: center; }
